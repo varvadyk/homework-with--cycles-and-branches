@@ -1,7 +1,7 @@
-let n=prompt("Vvedit number N",10);
+let n=+prompt("Vvedit number N",10);
 console.log(n);
 console.log(!Number.isInteger(n));
-let m=prompt("Vvedit number М ",100);
+let m=+prompt("Vvedit number М ",100);
 console.log(m);
 console.log(!Number.isInteger(m));
 let check=confirm("Пропускати парне число?");
