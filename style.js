@@ -27,21 +27,21 @@ let result_numbers = 0;
 
 for(let i=n; i<=m; i++)
 {
-  if (check===true) {
+  if (check) {
     if(i % 2 === 0)
     { 
       continue;
       
         console.log("Парне число");
     }
-    result_numbers += i;
+  
   }
 
     else{
       result_numbers += i;
   console.log ("не парне число")
 }
-  
+result_numbers += i;
 }
 console.log ("Result:" + result_numbers);
 document.writeln(`<h1 style=color:red;>Цикли і розгалуження</h1>`);
