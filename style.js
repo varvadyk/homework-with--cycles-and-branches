@@ -37,10 +37,7 @@ for(let i=n; i<=m; i++)
   
   }
 
-    else{
-      result_numbers += i;
-  console.log ("не парне число")
-}
+   
 result_numbers += i;
 }
 console.log ("Result:" + result_numbers);
